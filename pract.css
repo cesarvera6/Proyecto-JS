@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: grid;
+    flex-direction: row;
+    grid-template-rows: 20% 60% 20%;
+    text-align: center;
+    width: 500px;
+    height: 400px ;
+    
+}
+.titulo{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    padding: 8px;
+}
+.formulario{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.campos{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.c-input{
+    height: 40px;
+}
+.input{
+    padding: 12px;
+    margin-top: 18px;
+    border: 1px solid silver;
+    width: 85%;
+    border-radius: 4px;
+    font-family: 'Dancing Script', cursive;
+}
+.input::placeholder{
+    color: silver;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    margin-top: 45px;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 6px;
+    font-family: 'Dancing Script', cursive;
+}
+.resul{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+}
